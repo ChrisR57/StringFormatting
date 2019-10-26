@@ -46,6 +46,11 @@ public class Main {
 //        System.out.printf("%-12s %-8d %6s %n\n", oranges, orangeQuantity,
 //                currencyFormat.format(orangePrice));     // appends currency sign to the left need to be defined as %s
 
+        System.out.printf("PI is %f %n", Math.PI);
+        System.out.printf("PI is %.3f %n", Math.PI);
+        System.out.printf("PI is %.0f %n", Math.PI);
+        System.out.printf("PI is %.12f %n", Math.PI);
+        System.out.printf("PI is %.99f %n", Math.PI);
 
     }
 }
